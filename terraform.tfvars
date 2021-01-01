@@ -27,7 +27,7 @@ cert_manager_version = "1.0.4"
 ########################################################################################################################
 
 lets_encrypt_email       = "john@morsley.io"
-lets_encrypt_environment = "staging" # Valid options are 'staging' or 'production'
+lets_encrypt_environment = "production" # Valid options are 'staging' or 'production'
 
 ########################################################################################################################
 # RANCHER

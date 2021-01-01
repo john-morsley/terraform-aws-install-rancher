@@ -44,13 +44,11 @@ variable "cert_manager_version" {
 ########################################################################################################################
 
 variable "lets_encrypt_email" {
-  type    = string
-  default = "john@morsley.io"
+  type = string
 }
 
 variable "lets_encrypt_environment" {
-  type    = string
-  default = "staging" # Valid options are 'staging' or 'production'
+  type = string
 }
 
 ########################################################################################################################

@@ -8,6 +8,8 @@
                                                       __/ |          
                                                      |___/         */
 
+# https://registry.terraform.io/providers/hashicorp/kubernetes/latest/docs/resources/namespace
+
 resource "kubernetes_namespace" "cert-manager" {
 
   metadata {
@@ -23,6 +25,8 @@ resource "kubernetes_namespace" "cert-manager" {
   }
 
 }
+
+# https://registry.terraform.io/providers/hashicorp/helm/latest/docs/resources/release
 
 resource "helm_release" "cert_manager" {
   //depends_on = [null_resource.cert-manager-crds]

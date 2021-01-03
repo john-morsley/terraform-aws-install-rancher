@@ -8,6 +8,8 @@
   
                                       */
 
+# https://registry.terraform.io/providers/hashicorp/kubernetes/latest/docs/resources/namespace
+
 resource "kubernetes_namespace" "cattle-system" {
 
   metadata {
@@ -28,6 +30,8 @@ resource "kubernetes_namespace" "cattle-system" {
   //  }
 
 }
+
+# https://registry.terraform.io/providers/hashicorp/helm/latest/docs/resources/release
 
 resource "helm_release" "rancher" {
 

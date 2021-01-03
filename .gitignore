@@ -30,4 +30,8 @@ override.tf.json
 
 .terraform.lock.hcl
 
+# JetBrains Rider
 .idea
+
+# Artifacts
+**k8s/
